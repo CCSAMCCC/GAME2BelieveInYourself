@@ -1,6 +1,57 @@
-[53844:94504:0416/132025.942:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[53844:88584:0416/132026.524:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[53844:94504:0416/132026.654:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[89688:45152:0416/132035.267:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-239CE66D5C8F07A39861AC6A9F5A1424 will be ignored
-[53844:94504:0416/134406.938:ERROR:device_event_log_impl.cc(196)] [13:44:06.758] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[53844:94504:0416/140008.582:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[7500:15176:0418/184200.805:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[7500:35708:0418/184201.231:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[7500:15176:0418/184201.355:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[35868:35872:0418/184209.309:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-5697D2166F0048927439B0E6CF410355 will be ignored
+[7500:35724:0418/184211.701:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[35824:34956:0418/184211.735:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 21
+[7500:15176:0418/184212.367:WARNING:browser_info.cc(345)] Returning a speculative frame for [10,9]
+[7500:15176:0418/184212.367:WARNING:browser_info.cc(345)] Returning a speculative frame for [10,9]
+[7500:15176:0418/184212.367:WARNING:browser_info.cc(345)] Returning a speculative frame for [10,9]
+[7500:15176:0418/184212.367:WARNING:browser_info.cc(345)] Returning a speculative frame for [10,9]
+[7500:35724:0418/184212.370:WARNING:browser_info.cc(345)] Returning a speculative frame for [10,9]
+[35664:17460:0418/184218.359:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[35664:17460:0418/184218.891:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[35664:13536:0418/184218.910:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[35664:13536:0418/184218.910:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[35664:13536:0418/184218.911:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[35800:35804:0418/184427.690:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[35824:34956:0418/184427.809:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 13
+[34504:34492:0418/185713.864:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame D-5C52865B25ED9C777D0F94C6E98B577F will be ignored
+[35824:34956:0418/185714.338:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 41
+[35800:35020:0418/185858.324:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(103,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4_int)
+
+[35800:35844:0418/185858.646:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(136,1): warning X4000: use of potentially uninitialized variable (f_i_int_int_int2)
+C:\fakepath(138,1): warning X4000: use of potentially uninitialized variable (f_i_int_int_int2)
+C:\fakepath(174,1): warning X4000: use of potentially uninitialized variable (f_u_int_int_int)
+
+[35800:11340:0418/185859.011:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(166,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel_int)
+
+[35800:13904:0418/185859.025:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(166,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel_int)
+
+[35800:4380:0418/185859.053:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(166,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel_int)
+
+[35800:3476:0418/185859.111:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(95,23-33): warning X3595: gradient instruction used in a loop with varying iteration; partial derivatives may have undefined value
+C:\fakepath(96,23-33): warning X3595: gradient instruction used in a loop with varying iteration; partial derivatives may have undefined value
+
+[35800:35804:0418/185859.568:ERROR:gl_utils.cc(415)] [.WebGL-00007150031E3800] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[35800:35804:0418/185859.594:ERROR:gl_utils.cc(415)] [.WebGL-00007150031E3800] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[7400:11060:0418/191031.940:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame F-25B83B5F5347127E81FC3141E8D0137E will be ignored
+[2252:7588:0418/191509.332:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 11-E6ED25857573298429BEAFD00F3CD18A will be ignored
+[8968:3348:0418/200536.774:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 13-79F0750CDA0EDE35B5D599B330917BDF will be ignored
+[7500:15176:0418/205548.200:ERROR:device_event_log_impl.cc(196)] [20:55:48.047] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[35824:34956:0418/213300.711:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 35
+[35824:34956:0418/213306.813:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 41
+[35824:34956:0418/213653.276:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 11
+[35824:34956:0418/215707.276:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 17
+[35824:34956:0418/215736.187:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 47
+[35800:37336:0418/215739.720:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(382,11-39): warning X4008: floating point division by zero
+C:\fakepath(382,11-39): warning X4008: floating point division by zero
+
+[7500:15176:0418/221042.341:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
